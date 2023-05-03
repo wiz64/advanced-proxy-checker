@@ -13,7 +13,7 @@ async function main() {
 
 ```
 successful output: ()
-```json
+```js
 {
   valid: true,
   status: 'Connection Successful',
@@ -31,10 +31,10 @@ successful output: ()
 }
 ```
 failed output : (valid will be false)
-```json
+```js
 { status: 'Unknown Error', valid: false }
 ```
 or
-```json
+```js
 { status: 'Bad Gateway', valid: false }
 ```
