@@ -1,6 +1,6 @@
 {
   "name": "advanced-proxy-checker",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "NPM module to check proxy speed, fraud-score, latency and every other information of proxies.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,8 @@
     "url": "git+https://github.com/wiz64/advanced-proxy-checker.git"
   },
   "keywords": [
+    "check proxy",
+    "test proxy",
     "proxy",
     "fraudscore",
     "ip",
