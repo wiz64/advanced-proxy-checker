@@ -93,3 +93,10 @@ returns ip geo data, asn and privacy
 ```js
 await proxyCheck.info(proxy);
 ```
+
+- getScore
+
+returs fraudscore and risk level
+```js
+await proxyCheck.getScore(proxy);
+```
