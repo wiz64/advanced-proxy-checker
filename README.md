@@ -96,7 +96,7 @@ await proxyCheck.info(proxy);
 
 - getScore
 
-returs fraudscore and risk level
+returns fraudscore and risk level
 ```js
 await proxyCheck.getScore(proxy);
 ```
