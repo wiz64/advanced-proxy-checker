@@ -2,9 +2,10 @@
   "name": "advanced-proxy-checker",
   "version": "1.1.0",
   "description": "NPM module to check proxy speed, fraud-score, latency and every other information of proxies.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,9 @@
   "homepage": "https://github.com/wiz64/advanced-proxy-checker#readme",
   "dependencies": {
     "proxy-agent": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
   }
 }
